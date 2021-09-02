@@ -8,15 +8,15 @@ class Model {
   List<String?>? images;
   String? title;
   String? description;
-  int? currentPrice;
-  int? previousPrice;
+  int? current_price;
+  int? previous_price;
   String? currency;
-  int? totalReviews;
+  int? total_reviews;
   double? stars;
   String? category;
-  bool? outOfStock;
-  String? soldBy;
-  String? shippedBy;
+  bool? out_of_stock;
+  String? sold_by;
+  String? shipped_by;
   String? brand;
 
   Model({
@@ -24,15 +24,15 @@ class Model {
     this.images,
     this.title,
     this.description,
-    this.currentPrice,
-    this.previousPrice,
+    this.current_price,
+    this.previous_price,
     this.currency,
-    this.totalReviews,
+    this.total_reviews,
     this.stars,
     this.category,
-    this.outOfStock,
-    this.soldBy,
-    this.shippedBy,
+    this.out_of_stock,
+    this.sold_by,
+    this.shipped_by,
     this.brand,
   });
 

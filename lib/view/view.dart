@@ -33,7 +33,7 @@ class View extends StatelessWidget with Service {
                   ),
                   title: Text(data.brand!),
                   subtitle: Text(data.category!),
-                  trailing: Text('\$${data.currentPrice}'),
+                  trailing: Text('\$ ${data.current_price}'),
                 ),
               );
             },
